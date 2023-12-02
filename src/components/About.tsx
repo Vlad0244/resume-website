@@ -1,4 +1,4 @@
-import selfPortrait from "../images/self.png";
+import selfPortrait from "../media/self.png";
 import React from "react";
 
 function About() {
@@ -6,10 +6,10 @@ function About() {
       <>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-x-5 max-w-[1000px] mx-auto">
             <div className="justify-center">
-                <h1 id="about" className="bg-amber-800 text-center text-6xl">
+                <h1 id="about" className="text-center text-6xl text-[#1e152a]">
                     About
                 </h1>
-                <p className="text-center text-white">
+                <p className="text-center text-[#1e152a]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
