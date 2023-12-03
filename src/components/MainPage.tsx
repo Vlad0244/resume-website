@@ -5,7 +5,7 @@ import Header from "./Header";
 function MainPage() {
     return (
         <>
-            <div className="grid p-5 gap-5 bg-[#5ab1bb] ">
+            <div className="grid p-5 gap-5 bg-[#5ab1bb]">
                 <Header/>
                 <About/>
                 <Projects/>
