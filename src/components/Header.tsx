@@ -14,7 +14,7 @@ function Header() {
           <div className="mb-3.5">
               <span className="font-['Roboto'] font-bold text-[#1e152a] bg-[#f7dd72] p-2 rounded-md shadow-md ">Software Development Student</span>
           </div>
-          <a href={resumePdf} target="_blank" className="font-bold text-white text-xs bg-[#1e152a] p-2 rounded-1xl border border-white border-2 hover:border-black hover:bg-gray-200 hover:text-black">
+          <a href={resumePdf} target="_blank" rel="noreferrer" className="font-bold text-white text-xs bg-[#1e152a] p-2 rounded-1xl border border-white border-2 hover:border-black hover:bg-gray-200 hover:text-black">
             VIEW RESUME
           </a>
         </div>

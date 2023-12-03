@@ -28,7 +28,7 @@ function Project({ title, description, imageUrl, repoLink, index }: ProjectInter
                     <h1 className="justify-center text-center text-4xl">{title}</h1>
                     <p className="text-center text-[#1e152a]">{description}</p>
                     <div className="text-center mt-2">
-                        <a href={repoLink} target="_blank" className="font-bold text-white text-xs bg-[#1e152a] p-2 rounded-1xl border border-white border-2 hover:border-black hover:bg-gray-200 hover:text-black ">VIEW ON GITHUB</a>
+                        <a href={repoLink} target="_blank" rel="noreferrer" className="font-bold text-white text-xs bg-[#1e152a] p-2 rounded-1xl border border-white border-2 hover:border-black hover:bg-gray-200 hover:text-black ">VIEW ON GITHUB</a>
                     </div>
                 </div>
 

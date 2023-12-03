@@ -1,6 +1,5 @@
 
 import React from "react";
-import selfPortrait from "../media/self.png";
 import Project from "./Project";
 import { ProjectInterface } from "../interface";
 import { Playlist, AdventOfCode, ToDoListSvg, WebsiteSvg } from './Svgs';
