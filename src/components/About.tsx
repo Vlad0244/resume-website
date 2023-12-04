@@ -10,10 +10,12 @@ function About() {
                     About
                 </h1>
                 <p className="text-center text-[#1e152a]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                    I am a hobbyist programmer and a current Software Development student at Sheridan College.
+                    I derive satisfaction from solving everyday problems through coding and aspire to secure full-time
+                    employment in this field. My proficiency extends to Java, Python, HTML/CSS, TypeScript, SQL, and
+                    I also possess experience in machine learning using TensorFlow and Keras. I am committed to coding every day to
+                    enhance my skills and eagerly embrace challenges.
                 </p>
             </div>
             <div className="flex items-center justify-center">
