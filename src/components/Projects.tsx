@@ -2,7 +2,7 @@
 import React from "react";
 import Project from "./Project";
 import { ProjectInterface } from "../interface";
-import { Playlist, AdventOfCode, ToDoListSvg, WebsiteSvg } from './Svgs';
+import { Playlist, ToDoListSvg, WebsiteSvg } from './Svgs';
 
 function Projects() {
     const projects: ProjectInterface[] = [
@@ -26,13 +26,6 @@ function Projects() {
             imageUrl: <ToDoListSvg/>,
             repoLink: "https://github.com/Vlad0244/ToDoList/tree/main/ToDoList",
             index: 2,
-        },
-        {
-            title: "Advent of Code",
-            description: "This Winter I decided to participate in Advent of Code; a coding problem solving competition. While I am unable to be competitive on the leaderboards, I take it as an opportunity to improve in data structure problem-solving.",
-            imageUrl: <AdventOfCode/>,
-            repoLink: "https://github.com/Vlad0244/advent-of-code23",
-            index: 3,
         },
     ];
 

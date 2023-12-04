@@ -6,7 +6,7 @@ function Header() {
     <>
       <div className="grid grid-rows-2 text-center">
         <div className="flex items-center justify-center">
-          <span className="font-['Roboto'] font-bold text-[#1e152a] text-8xl mb-3 bg-[#f7dd72] p-2 rounded-md shadow-md ">
+          <span className="font-['Roboto'] font-bold text-[#1e152a] sm:text-8xl mb-3 bg-[#f7dd72] p-2 rounded-md shadow-md text-4xl">
             Vlad Suprun
           </span>
         </div>
